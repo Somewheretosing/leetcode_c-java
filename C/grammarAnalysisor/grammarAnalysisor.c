@@ -17,7 +17,7 @@ void main()
         memset(ucNestedInteger,0,1000);     //初始化
 
         printf("请输入nestedInteger对象：\n");          //用户输入
-        printf("例：[123,[123,[[123,234],[234,234]]]\n");
+        printf("例：[123,[123,[[123,234],[234,234]]]]\n");
         scanf("%s",ucNestedInteger);
 
         process(ucNestedInteger,0);             //进行处理
