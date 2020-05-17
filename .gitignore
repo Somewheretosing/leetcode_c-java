@@ -1,0 +1,10 @@
+#忽略测试代码
+test.c
+test.java
+#忽略编译产生的字节码文件、可执行文件等文件
+*.exe
+*.class
+*.db
+#忽略VSCode配置文件
+**/.vscode
+
